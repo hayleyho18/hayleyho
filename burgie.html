@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Burgie | Hayley Ho</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            margin: 0;
+            background-color: #ede9df;
+            color: #1f1f1f;
+            font-family: "Fira Sans", sans-serif;
+        }
+
+        header {
+            text-align: center;
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+
+        #logo {
+            width: 190px;
+            max-width: 60%;
+            display: block;
+            margin: 0 auto 25px auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 45px;
+        }
+
+        nav a {
+            font-family: "Special Elite", serif;
+            font-size: 18px;
+            color: #1f1f1f;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #a8392f;
+        }
+
+        main {
+            width: 88%;
+            max-width: 1000px;
+            margin: auto;
+            padding-top: 45px;
+            padding-bottom: 80px;
+        }
+
+        h1 {
+            font-family: "Special Elite", serif;
+            font-size: 42px;
+            font-weight: normal;
+            margin-bottom: 8px;
+        }
+
+        .category {
+            font-size: 14px;
+            opacity: 0.65;
+            margin-bottom: 25px;
+        }
+
+        .description {
+            max-width: 650px;
+            line-height: 1.6;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .live-link {
+            font-family: "Special Elite", serif;
+            color: #1f1f1f;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .live-link:hover {
+            color: #a8392f;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            margin-top: 55px;
+        }
+
+        .gallery img {
+            width: 100%;
+            display: block;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 50px;
+            font-family: "Special Elite", serif;
+            color: #1f1f1f;
+            text-decoration: none;
+        }
+
+        .back:hover {
+            color: #a8392f;
+        }
+
+        @media (max-width: 700px) {
+
+            #logo {
+                width: 160px;
+            }
+
+            nav {
+                gap: 18px 25px;
+            }
+
+            nav a {
+                font-size: 16px;
+            }
+
+            main {
+                width: 90%;
+                padding-top: 30px;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <a href="index.html">
+
+        <img
+            src="hayleylogotexture.png"
+            id="logo"
+            alt="Hayley Ho logo"
+        >
+
+    </a>
+
+
+    <nav>
+
+        <a href="fineart.html">fine art.</a>
+
+        <a href="design.html">design.</a>
+
+        <a href="motion.html">motion.</a>
+
+        <a href="immersive.html">immersive.</a>
+
+        <a href="about.html">about.</a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h1>Burgie</h1>
+
+    <p class="category">
+        Interactive Web Design / Illustration
+    </p>
+
+    <p class="description">
+        Burgie is an interactive build-your-own burger website.
+        I drew each ingredient in Procreate as pixel art and used
+        HTML, CSS, and JavaScript to turn the drawings into an
+        interactive webpage.
+    </p>
+
+    <a
+        class="live-link"
+        href="https://hayleyho18.github.io/burgie/burgie.html"
+        target="_blank"
+    >
+        view live project →
+    </a>
+
+
+    <div class="gallery">
+
+        <img
+            src="procreate layers.PNG"
+            alt="Burgie Procreate layers"
+        >
+
+        <img
+            src="procreate layers 2.PNG"
+            alt="Burgie Procreate layers and ingredients"
+        >
+
+        <img
+            src="burgieexample1.png"
+            alt="Finished Burgie example"
+        >
+
+        <img
+            src="burgieexample2.png"
+            alt="Finished Burgie example"
+        >
+
+    </div>
+
+
+    <a class="back" href="index.html">
+        ← back to selected work
+    </a>
+
+</main>
+
+
+</body>
+
+</html>
